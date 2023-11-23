@@ -80,6 +80,7 @@ controls.enableDamping = true;
  */
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
+  alpha: true,
 });
 renderer.outputColorSpace = THREE.NoToneMapping;
 renderer.setSize(sizes.width, sizes.height);
