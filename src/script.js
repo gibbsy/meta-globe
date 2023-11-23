@@ -33,7 +33,7 @@ function initScene() {
     map: earthTex,
     normalMap: normals,
     displacementMap: bumpMap,
-    displacementScale: 0.1,
+    displacementScale: 0.12,
   });
   sphere = new THREE.Mesh(sphereGeo, matCapMaterial);
   scene.add(sphere);
